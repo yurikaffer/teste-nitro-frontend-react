@@ -14,7 +14,7 @@ interface ModalSuccessfulProps {
 export function ModalSuccessful({ setIsOpen, isOpen }: ModalSuccessfulProps) {
   return (
     <div className="flex flex-col gap-2">
-      <Modal backdrop={"blur"} isOpen={isOpen} onOpenChange={setIsOpen}>
+      <Modal backdrop={"blur"} isOpen={isOpen} onOpenChange={setIsOpen} placement="center">
         <ModalContent>
           <>
             <ModalHeader className="self-center py-[4rem]">

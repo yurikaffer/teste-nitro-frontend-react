@@ -21,7 +21,7 @@ export function ModalRegister() {
         Cadastrar usuário
       </Button>
 
-      <Modal backdrop={"blur"} isOpen={isOpen} onOpenChange={setIsOpen}>
+      <Modal backdrop={"blur"} isOpen={isOpen} onOpenChange={setIsOpen} >
         <ModalContent>
           <>
             <ModalHeader className="flex self-center font-bold text-[34px] pt-10 text-gray-800 dark:text-gray-200">
