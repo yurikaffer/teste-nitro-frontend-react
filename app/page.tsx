@@ -13,7 +13,7 @@ export default function Home() {
         <h2 className=" text-[18px] ">
           O desafio proposto se resume em uma funcionalidade de cadastro de
           usuários com validação de campos, integração com backend para validação
-          e consistência de dados, e um layout agradável ao usuário
+          e consistência de dados, e um layout agradável ao usuário.
         </h2>
         <span className="italic">
           Para subir o app na Vercel e expor como portfólio, eu apenas simulei a
